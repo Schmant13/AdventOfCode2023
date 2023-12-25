@@ -3,7 +3,7 @@ from pathlib import Path
 source_folder = Path("src")
 file_to_open = source_folder / "input_3rd_test.txt"
 
-grid = open(file_to_open).read.splitlines()
+grid = open(file_to_open).read().splitlines()
 coordinates = set()
 numbers = []
 
